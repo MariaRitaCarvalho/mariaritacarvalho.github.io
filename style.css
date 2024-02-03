@@ -1,0 +1,549 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial';
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.frete-gratis-banner {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tagline {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 1.2em;
+}
+
+.eu-quero-button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.eu-quero-button:hover {
+    background-color: #004080;
+}
+
+.eu-quero-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.seguranca-text {
+    margin-top: 5px;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.perfume-image {
+    flex: 1;
+    text-align: center;
+}
+
+.perfume-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-content {
+        padding: 20px;
+    }
+
+    .perfume-image {
+        margin-top: 20px;
+    }
+
+    .eu-quero-button {
+        margin-top: 20px;
+    }
+
+    .coracao-img,
+    .icon-img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .white-content .product-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-info-item {
+        max-width: 100%;
+    }
+}
+
+.white-section {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.white-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #000;
+}
+
+.product-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-info-item {
+    flex: 1;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.product-info-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-info-item p {
+    font-size: 1em;
+}
+
+.redimensionada {
+    width: 75px;
+    height: 75px;
+}
+
+@media only screen and (min-width: 601px) {
+    .main-content {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .text-content {
+        max-width: 400px; 
+        margin-right: 20px;
+    }
+
+    .perfume-image {
+        max-width: 400px;
+    }
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.eu-quero-button-2,
+.eu-quero-button-3 {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.eu-quero-button-2:hover,
+.eu-quero-button-3:hover {
+    background-color: #004080;
+}
+
+.eu-quero-button-2 img,
+.eu-quero-button-3 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.selo-protecao {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 601px) {
+    .selo-protecao {
+        max-width: 45%;
+    }
+}
+
+.abouttheprice-section {
+    background-color: #007BFF;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.abouttheprice-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.abouttheprice-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.abouttheprice-content p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.about-packaging-section {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    overflow: hidden;
+}
+
+.about-packaging-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #000;
+}
+
+.about-packaging-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.about-packaging-content p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.embalagem-img {
+    max-width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.crime-text {
+    color: #007BFF;
+}
+
+@media only screen and (max-width: 600px) {
+    .embalagem-img {
+        max-width: 60%;
+    }
+}
+
+.seguranca-text-2 {
+    margin-top: 5px;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.warranty-note-section {
+    background-color: #007BFF;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.warranty-note-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.warranty-note-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.warranty-note-content p {
+    font-size: 1.1em;
+}
+
+.warranty-area-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.warranty-area {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.warranty-area img {
+    max-width: 65%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.warranty-area h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.warranty-area p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .warranty-area-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .warranty-area {
+        margin-top: 20px;
+    }
+}
+
+.contratipos-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contratipos-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000; 
+}
+
+.contratipos-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contratipos-content p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.comprar-agora-button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.comprar-agora-button:hover {
+    background-color: #004080;
+  }
+
+@media only screen and (max-width: 600px) {
+    .whatsapp-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 4px;
+    }
+}
+
+.faq-section {
+    background-color: #ffffff;
+    padding: 20px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.faq-item {
+    max-width: 800px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.faq-item.active .answer {
+    display: block;
+}
+
+.faq-item h4 {
+    margin: 0;
+    color: #007BFF;
+    border: none;
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-area {
+    flex-basis: calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    text-align: center;
+}
+
+.footer-area h4 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.footer-area ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-area ul li {
+    margin-bottom: 8px;
+}
+
+.footer-area a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-area p {
+    margin: 10;
+}
+
+.footer-area img {
+    max-width: 60%;
+    height: auto;
+
+}
+
+.margin-bottom-section1 {
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-area {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+footer2 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.0em;
+}
+
+footer2 div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    footer2 div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+footer3 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.0em;
+}
+
